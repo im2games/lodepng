@@ -11,6 +11,6 @@ install(FILES "${CMAKE_BINARY_DIR}/lodepng-config.cmake" DESTINATION "share/lode
 
 install(TARGETS lodepng EXPORT lodepng-targets)
 
-install(EXPORT lodepng-targets DESTINATION lib/cmake/lodepng)
+install(EXPORT lodepng-targets DESTINATION share/lodepng)
 
 install(FILES lodepng.h lodepng_util.h  DESTINATION include)
